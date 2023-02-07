@@ -14,9 +14,9 @@
     --bg-black: black;
     --hover: purple;
 }
-.debug{
+/* .debug{
     border: 1px solid black;
-}
+}*/
 
 /* header */
 header{
@@ -157,21 +157,44 @@ h3{
     padding-bottom: 90px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 footer{
     background-color: var(--bg-b-button);
     color: var(--bg-w-button);
+    padding: 60px 0;
+}
+
+.footerup-flex{
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+h4{
+    color: var(--bg-lb-button);
+    font-size: 30px;
+}
+
+.flag{
+    width: 30px;
+}
+
+.first-li{
+    color: var(--bg-lb-button);
+}
+
+footer ul li{
+    margin: 20px 0;
+}
+
+footer div span{
+    margin: 0 10px;
+}
+
+.b-bottom{
+    border-bottom: 2px solid var(--bg-lb-button);
+}
+
+.s-between{
+    justify-content: space-between;
 }
